@@ -53,7 +53,7 @@ class TicTacToe
     puts "Please enter your turn : 1-9"
     input = input_to_index(gets.chomp)
     move(input, current_player) if valid_move?(input)
-
+    display_board
   end
 
 
