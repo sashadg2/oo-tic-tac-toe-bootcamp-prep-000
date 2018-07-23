@@ -26,7 +26,7 @@ class TicTacToe
   def input_to_index
     puts "Pleae enter your turn: 1-9"
     input = gets.chomp.to_i
-    @board[input-1]
+    input-1
   end
 
 end
