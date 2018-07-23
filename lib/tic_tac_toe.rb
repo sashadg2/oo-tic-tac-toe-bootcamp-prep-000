@@ -66,7 +66,9 @@ class TicTacToe
 
   def won?
     WIN_COMBINATIONS.each do |com|
-      
+      @board.each_index do |idx|
+
+      end
     end
   end
 
