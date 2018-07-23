@@ -64,6 +64,12 @@ class TicTacToe
     display_board
   end
 
+  def won?
+    WIN_COMBINATIONS.each do |com|
+      
+    end
+  end
+
 
 
 end
