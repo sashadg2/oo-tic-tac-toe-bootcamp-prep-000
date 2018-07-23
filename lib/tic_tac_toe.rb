@@ -23,9 +23,8 @@ class TicTacToe
     puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
   end
 
-  def input_to_index
-    puts "Pleae enter your turn: 1-9"
-    input = gets.chomp.to_i - 1
+  def input_to_index(str)
+    str.to_i
   end
 
 end
