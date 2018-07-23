@@ -72,7 +72,7 @@ class TicTacToe
   end
 
   def full?
-    return true if @board.each_index.all? {|idx| position_taken?(idx)}
+    return true if @board.each_index.all? {|idx| position_taken?(idx)} && !won?
     false
   end
 
