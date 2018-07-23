@@ -27,4 +27,8 @@ class TicTacToe
     str.to_i - 1
   end
 
+  def move(idx, token = "X")
+
+  end
+
 end
