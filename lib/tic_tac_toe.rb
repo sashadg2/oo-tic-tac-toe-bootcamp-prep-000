@@ -95,6 +95,9 @@ class TicTacToe
     until over?
       turn
     end
+    if won?
+      puts "Congratulations, the winner is #{winner}"
+    elsif
   end
 
 
