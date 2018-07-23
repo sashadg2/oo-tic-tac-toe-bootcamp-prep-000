@@ -81,4 +81,8 @@ class TicTacToe
     false
   end
 
+  def over?
+
+  end
+
 end
