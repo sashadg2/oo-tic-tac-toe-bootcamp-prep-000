@@ -61,7 +61,7 @@ class TicTacToe
         next
       end
     end
-      display_board
+    display_board
   end
 
 
