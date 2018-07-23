@@ -53,7 +53,8 @@ class TicTacToe
     state = false
     until state
       puts "Please enter your turn : 1-9"
-      input = input_to_index(gets.chomp)
+      input = gets.chomp
+      input = input_to_index(input)
       if valid_move?(input)
         move(input, current_player)
         state = true
