@@ -60,6 +60,7 @@ class TicTacToe
       else
         next
       end
+    end
       display_board
   end
 
