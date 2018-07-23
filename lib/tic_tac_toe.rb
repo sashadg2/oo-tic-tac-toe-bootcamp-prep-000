@@ -71,6 +71,8 @@ class TicTacToe
     false
   end
 
-
+  def full?
+    
+  end
 
 end
